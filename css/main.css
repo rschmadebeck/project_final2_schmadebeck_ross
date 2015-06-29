@@ -1,0 +1,37 @@
+body {
+    background-color: beige;
+}
+
+header {
+    margin-top: -15px;
+}
+
+#top_banner p {
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    height: 30px;
+    font-family: 'Lora', serif;
+    color: white;
+    padding-top: 10px;
+}
+
+#content {
+    background-image: url(../img/background.jpg);
+    width: 80%;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: -15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+#logo {
+    background-image: url(../img/logo.jpg);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 280px;
+    height: 135px;
+    box-shadow: 3px 3px 3px 0px
+}
