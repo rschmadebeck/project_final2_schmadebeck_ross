@@ -43,6 +43,7 @@ header {
 
 #fonts {
     width: 65%;
+    padding: 10px;
     float: right;
 }
 
@@ -162,7 +163,7 @@ header {
 }
 
 #textures {
-    width: 50%;
+    width: 35%;
     min-width: 300px;
     margin-top: -10px;
     padding-top: 10px;
@@ -198,6 +199,24 @@ header {
     box-shadow: 2px 2px 2px 0px;
     margin: 8px;
     float: left;
+}
+
+#adjectives {
+    width: 65%;
+    clear: both;
+    float: right;
+}
+
+#adjectives ul {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 14pt;
+    list-style: none;
+}
+
+#adjectives ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 #buttons {
@@ -243,24 +262,6 @@ a:hover.button {
     text-decoration: none;
 }
 
-#adjectives {
-    width: 65%;
-    clear: right;
-    float: right;
-}
-
-#adjectives ul {
-    font-family: 'Lora', serif;
-    font-weight: 400;
-    font-size: 14pt;
-    list-style: none;
-}
-
-#adjectives ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
 footer {
     font-family: 'Lora', serif;
     font-weight: 400;
@@ -268,7 +269,7 @@ footer {
     clear: both;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 760px) {
     #logo {
         width: 100%;
     }
