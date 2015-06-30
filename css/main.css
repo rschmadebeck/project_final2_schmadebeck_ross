@@ -224,3 +224,23 @@ footer {
     color: #252525;
     clear: both;
 }
+
+@media (max-width: 750px) {
+    #logo {
+        width: 100%;
+    }
+
+    #content, #fonts {
+        width: 100%;
+    }
+
+    #colors, #textures {
+        width: 100%;
+        float: none;
+    }
+
+    #adjectives {
+        clear: both;
+        float: left;
+    }
+}
