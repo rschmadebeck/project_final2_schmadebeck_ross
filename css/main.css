@@ -21,6 +21,7 @@ header {
     width: 80%;
     min-width: 320px;
     max-width: 1000px;
+    min-height: 800px;
     margin: auto;
     margin-top: -15px;
     padding: 10px;
@@ -30,8 +31,57 @@ header {
 #logo {
     background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     border: 1px solid black;
-    width: 280px;
+    width: 30%;
+    max-width: 280px;
     height: 135px;
-    box-shadow: 3px 3px 3px 0px
+    box-shadow: 3px 3px 3px 0px;
+    float: left;
+}
+
+#fonts {
+    width: 65%;
+    float: right;
+}
+
+#headlines h1 {
+    font-family: 'Handlee', cursive;
+    font-size: 32pt;
+    color: #252525;
+    margin-bottom: -10px;
+}
+
+.h1stylelabel {
+    font-family: 'Handlee', cursive;
+    font-size: 14pt;
+    color: #252525;
+}
+
+#headlines h2 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 24pt;
+    color: #4E1616;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+.h2stylelabel {
+    font-family: 'Lora', serif;
+    font-size: 14pt;
+    color: #4E1616;
+}
+
+#copylinks p {
+    font-family: 'Lora', serif;
+    font-size: 14pt;
+    color: #5F3309;
+    line-height: 18pt;
+}
+
+.linkstyle {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #011053;
 }
