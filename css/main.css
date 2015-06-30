@@ -96,7 +96,7 @@ header {
     clear: left;
 }
 
-#colors h2, #textures h2, #adjectives h2 {
+#colors h2, #textures h2, #adjectives h2, #buttons h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 16pt;
@@ -198,6 +198,49 @@ header {
     box-shadow: 2px 2px 2px 0px;
     margin: 8px;
     float: left;
+}
+
+#buttons {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 20px;
+    padding-top: 10px;
+    clear: both;
+    float: left;
+}
+
+#buttons p {
+    margin-bottom: 50px;
+}
+
+.button {
+    background-color: #7D4900;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover.button {
+    background-color: #5F3309;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.buttonhover {
+    background-color: #5F3309;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 14pt;
+    padding: 15px 15px 15px 15px;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 #adjectives {
