@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    margin-top: -15px;
+    margin-top: -16px;
 }
 
 #top_banner p {
@@ -23,8 +23,9 @@ header {
     max-width: 1000px;
     min-height: 800px;
     margin: auto;
-    margin-top: -15px;
+    margin-top: -16px;
     padding: 10px;
+    border: 1px solid #000000;
     box-shadow: 5px 5px 5px 0px;
 }
 
@@ -60,7 +61,7 @@ header {
 
 #headlines h2 {
     font-family: 'Lora', serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24pt;
     color: #4E1616;
     margin-bottom: -10px;
@@ -69,6 +70,7 @@ header {
 
 .h2stylelabel {
     font-family: 'Lora', serif;
+    font-weight: 700;
     font-size: 14pt;
     color: #4E1616;
 }
