@@ -94,12 +94,11 @@ header {
     clear: left;
 }
 
-#colors h2, #textures h2 {
+#colors h2, #textures h2, #adjectives h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 16pt;
     color: #5F3309;
-    margin-left: 8px;
 }
 
 #color1 {
@@ -158,6 +157,7 @@ header {
     margin-top: -10px;
     padding-top: 10px;
     clear: both;
+    float: left;
 }
 
 #texture1 {
@@ -190,4 +190,20 @@ header {
     float: left;
 }
 
+#adjectives {
+    width: 65%;
+    clear: right;
+    float: right;
+}
 
+#adjectives ul {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 14pt;
+    list-style: none;
+}
+
+#adjectives ul li {
+    display: inline;
+    margin-right: 20px;
+}
