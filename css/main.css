@@ -164,7 +164,6 @@ header {
 
 #textures {
     width: 35%;
-    min-width: 300px;
     margin-top: -10px;
     padding-top: 10px;
     clear: both;
@@ -203,8 +202,8 @@ header {
 
 #adjectives {
     width: 65%;
-    clear: both;
-    float: right;
+    clear: right;
+    float: left;
 }
 
 #adjectives ul {
@@ -220,9 +219,7 @@ header {
 }
 
 #buttons {
-    width: 50%;
-    min-width: 300px;
-    margin-top: 20px;
+    width: 60%;
     padding-top: 10px;
     clear: both;
     float: left;
@@ -274,7 +271,7 @@ footer {
         width: 100%;
     }
 
-    #content, #fonts {
+    #content, #fonts, #buttons {
         width: 100%;
     }
 
