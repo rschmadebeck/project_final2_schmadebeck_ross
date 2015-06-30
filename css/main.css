@@ -94,7 +94,7 @@ header {
     clear: left;
 }
 
-#colors h2 {
+#colors h2, #textures h2 {
     font-family: 'Lora', serif;
     font-weight: 400;
     font-size: 16pt;
@@ -155,7 +155,39 @@ header {
 #textures {
     width: 50%;
     min-width: 300px;
-    margin-top: 10px;
+    margin-top: -10px;
     padding-top: 10px;
     clear: both;
 }
+
+#texture1 {
+    background-image: url(../img/texture1.jpg);
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#texture2 {
+    background-image: url(../img/texture2.jpg);
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#texture3 {
+    background-image: url(../img/texture3.jpg);
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+
