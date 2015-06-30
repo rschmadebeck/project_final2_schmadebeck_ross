@@ -73,7 +73,7 @@ header {
     color: #4E1616;
 }
 
-#copylinks p {
+#copylinks p, #colors p {
     font-family: 'Lora', serif;
     font-size: 14pt;
     color: #5F3309;
@@ -84,4 +84,78 @@ header {
     font-weight: 700;
     text-decoration: underline;
     color: #011053;
+}
+
+#colors {
+    width: 35%;
+    min-width: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    clear: left;
+}
+
+#colors h2 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16pt;
+    color: #5F3309;
+    margin-left: 8px;
+}
+
+#color1 {
+    background-color: #7D4900;
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#color2 {
+    background-color: #5F3309;
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#color3 {
+    background-color: #011053;
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#color4 {
+    background-color: #4E1616;
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#color5 {
+    background-color: #252525;
+    width: 75px;
+    height: 75px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 2px 0px;
+    margin: 8px;
+    float: left;
+}
+
+#textures {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+    clear: both;
 }
