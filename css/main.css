@@ -101,6 +101,14 @@ header {
     color: #5F3309;
 }
 
+#colors p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 10pt;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 #color1 {
     background-color: #7D4900;
     width: 75px;
@@ -206,4 +214,11 @@ header {
 #adjectives ul li {
     display: inline;
     margin-right: 20px;
+}
+
+footer {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    color: #252525;
+    clear: both;
 }
