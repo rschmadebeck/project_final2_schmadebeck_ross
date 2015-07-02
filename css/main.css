@@ -231,7 +231,9 @@ a:hover.button {
 #images img {
     width: 90%;
     margin: 10px;
-    padding-right: 20px;
+    margin-right: 20px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px 0px;
 }
 
 #images figcaption {
