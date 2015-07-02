@@ -34,17 +34,17 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid black;
-    width: 30%;
+    width: 100%;
     max-width: 280px;
+    margin: auto;
     height: 135px;
     box-shadow: 3px 3px 3px 0px;
-    float: left;
 }
 
 #fonts {
-    width: 65%;
+    width: 90%;
     padding: 10px;
-    float: right;
+    margin: auto;
 }
 
 #headlines h1 {
@@ -90,11 +90,10 @@ header {
 }
 
 #colors {
-    width: 35%;
-    min-width: 300px;
+    width: 100%;
     margin-top: 10px;
     padding-top: 10px;
-    clear: left;
+    margin: auto;
 }
 
 #colors h2, #textures h2, #adjectives h2, #buttons h2 {
@@ -112,98 +111,66 @@ header {
     color: #FFFFFF;
 }
 
-#color1 {
-    background-color: #7D4900;
+#color1,  #color1, #color2, #color3, #color4, #color5 {
     width: 75px;
     height: 75px;
     border: 3px solid white;
     box-shadow: 2px 2px 2px 0px;
     margin: 8px;
     float: left;
+}
+
+#color1 {
+    background-color: #7D4900;
 }
 
 #color2 {
     background-color: #5F3309;
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #color3 {
     background-color: #011053;
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #color4 {
     background-color: #4E1616;
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #color5 {
     background-color: #252525;
+}
+
+#textures {
+    width: 100%;
+    margin-top: -10px;
+    padding-top: 10px;
+    clear: both;
+}
+
+#texture1, #texture2, #texture3 {
     width: 75px;
     height: 75px;
     border: 3px solid white;
     box-shadow: 2px 2px 2px 0px;
     margin: 8px;
-    float: left;
-}
-
-#textures {
-    width: 35%;
-    margin-top: -10px;
-    padding-top: 10px;
-    clear: both;
     float: left;
 }
 
 #texture1 {
     background-image: url(../img/texture1.jpg);
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #texture2 {
     background-image: url(../img/texture2.jpg);
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #texture3 {
     background-image: url(../img/texture3.jpg);
-    width: 75px;
-    height: 75px;
-    border: 3px solid white;
-    box-shadow: 2px 2px 2px 0px;
-    margin: 8px;
-    float: left;
 }
 
 #adjectives {
-    width: 65%;
-    clear: right;
-    float: left;
+    width: 100%;
+    clear: both;
 }
 
 #adjectives ul {
@@ -219,10 +186,8 @@ header {
 }
 
 #buttons {
-    width: 60%;
+    width: 100%;
     padding-top: 10px;
-    clear: both;
-    float: left;
 }
 
 #buttons p {
@@ -262,28 +227,46 @@ a:hover.button {
 footer {
     font-family: 'Lora', serif;
     font-weight: 400;
+    width: 100%;
     color: #252525;
     clear: both;
 }
 
-@media (max-width: 760px) {
-    #logo {
-        width: 100%;
-        margin: auto;
-        float: none;
-    }
-
-    #content, #fonts, #buttons {
-        width: 100%;
-    }
-
-    #colors, #textures {
-        width: 100%;
-        float: none;
-    }
-
-    #adjectives {
-        clear: both;
+@media (min-width: 800px) {
+    #color1, #color2, #color3, #color4, #color5 {
         float: left;
+    }
+
+    #colors, #textures, #buttons {
+    width: 30%;
+    min-width: 300px;
+    float: left;
+    }
+
+    #textures {
+        clear: left;
+    }
+
+    #buttons {
+        clear: both;
+    }
+
+    #logo {
+    width: 100%;
+    float: left;
+    }
+
+    #fonts, #adjectives {
+    width: 50%;
+    padding: 10px;
+    float: right;
+    clear: right;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    #fonts, #adjectives {
+        width: 60%;
     }
 }
